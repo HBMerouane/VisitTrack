@@ -4,11 +4,11 @@
 <br>
 Do what Google Analytics does but provide more details on the visitor's journey on your site.
 <br>
-<b>Keywords:</b> <i>PHP, Django</i>
+<b>Keywords:</b> <i>PHP, Laravel</i>
 </td></tr></table>
 
 ## Context
-Ayant des difficultés avec Google analytics sur mon site et cherchant à avoir plus d'options et la main sur ce que j'ai comme statistiques, j'ai développé _VisitTracker_. Vù que mon site est en CMS Prestashop basé sur PHP, j'ai développé le script de suivi en PHP et MySQL. Le frontend a été développé en Django par un collègue. 
+Ayant des difficultés avec Google analytics sur mon site et cherchant à avoir plus d'options et la main sur ce que j'ai comme statistiques, j'ai développé _VisitTracker_. Vù que mon site est en CMS Prestashop basé sur PHP, j'ai développé le script de suivi en PHP et MySQL. Le frontend a été développé en Laravel par un collègue. 
 
 ## Comment ça fonctionne
 _VisitTracker_ récupère les informations principalement de la signature de l'agent de l'explorateur du visiteur mais aussi du site, il les enregistre ensuite dans une base de données tout en vérifiant s'il s'agit d'un nouveau visiteur ou une nouvelle page ouverte par un utilisateur déjà enregistré, d'un robot ou humain. Le front end est alimenté avec cette base, où on peut filtrer les visits selon plusieurs critères: Pays, date, type (robot ou non), etc.. Il suffit ensuite de cliequer sur _détails_ pour avoir plus d'informations sur les pages visités par un utilisateur.
